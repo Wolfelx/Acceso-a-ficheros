@@ -8,7 +8,7 @@ public class ManejoFicheros {
 
         // 1. ESCRITURA con FileOutputStream
         try (FileOutputStream fos = new FileOutputStream(rutaArchivo)) {
-            String texto = "¡Hola desde DAM! Guardando datos binarios.";
+            String texto = "Segunda version, probando el flujo de ramas de Git.";
             // Convertimos el texto a un array de bytes y lo escribimos
             fos.write(texto.getBytes());
             System.out.println("Archivo .dat creado y escrito con éxito.");
